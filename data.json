@@ -1,0 +1,246 @@
+{
+    "name": "Muhammad Asri bin Muhamad Khidzi",
+    "title": "Mobile Apps Developer & Game Developer",
+    "about": {
+        "location": "Kg Batu 9 Kebun Baharu, Kuala Langat, Selangor",
+        "siblings": 5,
+        "career_goal": "Lecturer in programming",
+        "short_term_goal": "Get a job as a programmer",
+        "hobbies": [
+            "Drawing",
+            "Watching movies online",
+            "Playing games",
+            "Making games",
+            "Playing volleyball",
+            "Fishing"
+        ],
+        "interests": [
+            "Solving problems (Physics, Math logic, Puzzles)",
+            "Challenging myself with unique tasks",
+            "Self-learning programming skills"
+        ]
+    },
+    "video": "<youtube_url_here>",
+    "experience": [
+        {
+            "position": "Game Programmer",
+            "company": "KITCM01 MEDIACON",
+            "date": "September 2016",
+            "description": "Participated in a multimedia competition at UiTM Merlimau Melaka. Learned game development strategies and coding techniques. Submitted two game projects, one of which won 2nd place."
+        },
+        {
+            "position": "Team Leader",
+            "company": "Workshop 2",
+            "date": "2017",
+            "description": "Led a team in a game development competition. Won Best Game Product and Best Poster Design. Learned team task delegation and structured development processes."
+        },
+        {
+            "position": "Facilitator",
+            "company": "MDEC Tabletop Competition",
+            "date": "2016 & 2018",
+            "description": "Guided high school students in developing tabletop games. Provided advice on game development and time management for completing projects in two days."
+        },
+        {
+            "position": "Technical Support",
+            "company": "CloudMoolah",
+            "date": "September 2018 - February 2019",
+            "description": "Developed CloudMoolah wallet with third-party payment integration for Non-Unity SDK and MOO Store. Assisted Unity developers with API development."
+        },
+        {
+            "position": "Software Engineer (Mobile Apps Developer - Flutter)",
+            "company": "IT-Paradise Solution Sdn Bhd",
+            "date": "March 2019 - June 2021",
+            "description": "Developed iOS and Android applications using Flutter. Worked on merchant apps for sales management. See 'Projects' section for details."
+        },
+        {
+            "position": "Software Engineer (Mobile Apps Developer - Flutter)",
+            "company": "PA Communication Solution Sdn Bhd",
+            "date": "July 2021 - March 2023",
+            "description": "Developed mobile apps, including converting Android projects to Flutter. Focused on state management and app extension development."
+        },
+        {
+            "position": "Research Assistant (Apps Developer - Flutter)",
+            "company": "Ts. Dr Wahidah Md Shah (UTeM)",
+            "date": "June 2021 - March 2022",
+            "description": "Developed the 'SmarTour' mobile app from scratch, focusing on logic planning and development."
+        },
+        {
+            "position": "Software Engineer (Mobile Apps Developer - Flutter)",
+            "company": "SKSA Technology Sdn Bhd (IWHost)",
+            "date": "March 2023 - Present",
+            "description": "Developing a social media platform for e-commerce named Fansuka."
+        }
+    ],
+    "education": [
+        {
+            "institution": "SMK Telok Panglima Garang",
+            "year": "2013 - 2014",
+            "field": "Science (Agriculture & Physics)",
+            "spm_result": [
+                "1A",
+                "3A-",
+                "1B",
+                "2C+",
+                "3C"
+            ]
+        },
+        {
+            "institution": "Kolej Matrikulasi Negeri Sembilan",
+            "year": "2014 - 2015",
+            "field": "Science Stream Module 2",
+            "cgpa": "2nd class lower division"
+        },
+        {
+            "institution": "Universiti Teknikal Malaysia Melaka",
+            "year": "2015 - 2019",
+            "degree": "Bachelor of Information Technology (Game Technology)",
+            "cgpa": 3.33
+        },
+        {
+            "institution": "Universiti Teknikal Malaysia Melaka",
+            "year": "2021 - Present",
+            "degree": "Master of Software Engineering (Mobile Application Development)",
+            "cgpa": 3.74
+        }
+    ],
+    "skills": {
+        "programming": {
+            "expert": [
+                "Dart (Flutter)"
+            ],
+            "proficient": [
+                "Java (Android Studio)",
+                "C# (Unity3D)",
+                "Processing.org",
+                "HTML & CSS"
+            ],
+            "basic": [
+                "React Native",
+                "C++",
+                "PHP Laravel",
+                "JavaScript",
+                "ASP.Net Web API"
+            ]
+        },
+        "video_photo_editing": [
+            "Adobe Premiere (Basic)",
+            "Adobe Illustrator (Basic)",
+            "Photoshop (Basic)",
+            "Audacity (Basic)"
+        ],
+        "3D_modeling": {
+            "expert": [
+                "Blender"
+            ],
+            "proficient": [
+                "Cinema 4D"
+            ],
+            "basic": [
+                "3Ds Max"
+            ]
+        }
+    },
+    "quote": {
+        "text": "Do not go where the path may lead. Instead, go where there is no path and leave a trail.",
+        "author": "Ralph Waldo Emerson"
+    },
+    "projects": [
+        {
+            "name": "M360 Merchant",
+            "description": "Used to manage store daily sales, stock, discounts, and more.",
+            "technologies": [
+                "Flutter",
+                "Firebase Notification",
+                "Storage",
+                "Google Location"
+            ]
+        },
+        {
+            "name": "M360",
+            "description": "Customer app for receiving updates from stores, such as news, gifts, and vouchers.",
+            "technologies": [
+                "Flutter",
+                "Firebase Notification",
+                "Storage",
+                "Facebook Login",
+                "Google Location"
+            ]
+        },
+        {
+            "name": "AFC Merchant",
+            "description": "Used by Sushi Izu to manage store orders.",
+            "technologies": [
+                "Flutter",
+                "Firebase Notification",
+                "Storage",
+                "QR Scanner",
+                "Printing"
+            ],
+            "website": "https://www.sushiizu.com.au/"
+        },
+        {
+            "name": "Employee Self Service (ESS)",
+            "description": "Leave application management app.",
+            "technologies": [
+                "Flutter",
+                "Firebase Notification"
+            ]
+        },
+        {
+            "name": "ITP Leave Apps",
+            "description": "Company leave management and news app.",
+            "technologies": [
+                "Flutter",
+                "Firebase Notification"
+            ]
+        },
+        {
+            "name": "Maharaja Karaoke Kiosk Apps",
+            "description": "Customer self-ordering system for Maharaja Karaoke, IOI Putrajaya.",
+            "technologies": [
+                "Flutter",
+                "Socket.IO",
+                "QR Reader",
+                "IPay88 Payment Gateway",
+                "Credit Card Terminal"
+            ]
+        },
+        {
+            "name": "Fansuka",
+            "description": "New social media for influencers and content creators.",
+            "technologies": [
+                "Flutter",
+                "Agora Live Stream",
+                "Revenue Cat",
+                "In-App Subscription",
+                "Image & Video Editor",
+                "Firebase"
+            ]
+        }
+    ],
+    "games": [
+        {
+            "name": "TEGUR",
+            "video": "<youtube_url>",
+            "thumbnail": "<thumbnail_url>"
+        },
+        {
+            "name": "LIMITED BOUNCER",
+            "video": "<youtube_url>",
+            "thumbnail": "<thumbnail_url>"
+        },
+        {
+            "name": "20SEC OF WAR",
+            "video": "<youtube_url>",
+            "thumbnail": "<thumbnail_url>"
+        },
+        {
+            "name": "HOUSE OF SAVANT",
+            "status": "Prototype",
+            "play_now": "<game_url>"
+        }
+    ],
+    "contact": {
+        "email": "asrikhidzi@gmail.com"
+    }
+}
