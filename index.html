@@ -1,44 +1,52 @@
 <!DOCTYPE html>
-<html lang="ms">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Saya</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="projects.js"></script>
 </head>
-
 <body>
     <header>
-        Portfolio Saya
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1 id="name"></h1>
+        <p id="title"></p>
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>Ringkasan tentang diri anda.</p>
+        <h2>About</h2>
+        <p id="location"></p>
+        <p id="career_goal"></p>
+        <p id="short_term_goal"></p>
+        <h3>Hobbies</h3>
+        <ul id="hobbies"></ul>
+        <h3>Interests</h3>
+        <ul id="interests"></ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul id="experience-list"></ul>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul id="education-list"></ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul id="skills-list"></ul>
     </section>
 
     <section id="projects">
-        <h2>My Projects</h2>
-        <div id="projects-list"></div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: example@email.com</p>
+        <h2>Projects</h2>
+        <ul id="projects-list"></ul>
     </section>
 
     <footer>
-        <p>&copy; 2025 Nama Anda</p>
+        <p>Contact: <span id="email"></span></p>
     </footer>
-</body>
 
+    <script src="projects.js"></script>
+</body>
 </html>

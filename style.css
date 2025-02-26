@@ -1,101 +1,38 @@
 body {
-    font-family: "Georgia", serif;
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 80px 0 0 0;
-    background-color: #2b2b2b;
-    color: #c4a484;
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
 header {
-    background: #3e2723;
-    color: #d7ccc8;
+    text-align: center;
+    background: #007BFF;
+    color: white;
     padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-    margin: 10px 0 0 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #d7ccc8;
-    font-weight: bold;
+    border-radius: 10px;
 }
 
 section {
-    padding: 50px;
-    text-align: center;
-}
-
-#about, #projects, #contact {
-    background: #4e342e;
-    margin: 20px auto;
+    background: white;
     padding: 20px;
+    margin: 20px 0;
     border-radius: 10px;
-    width: 80%;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#projects-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+h2 {
+    color: #007BFF;
 }
 
-.project-item {
-    background: #5d4037;
-    padding: 15px;
-    border-radius: 10px;
-    width: 300px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-    text-align: center;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-.project-image {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.project-item h3 {
-    margin: 10px 0 5px;
-    color: #c4a484;
-}
-
-.project-item p {
-    font-size: 14px;
-    color: #d7ccc8;
-}
-
-.project-item a {
-    text-decoration: none;
-    color: #a67c52;
-    font-weight: bold;
-}
-
-footer {
-    background-color: #3e2723;
-    color: #d7ccc8;
-    text-align: center;
+ul li {
+    background: #f9f9f9;
     padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
 }
