@@ -2,13 +2,13 @@ body {
     font-family: "Georgia", serif;
     margin: 0;
     padding: 0;
-    background-color: #f4ecd8;
-    color: #5a4635;
+    background-color: #2b2b2b;
+    color: #c4a484;
 }
 
 header {
-    background: #a67c52;
-    color: white;
+    background: #3e2723;
+    color: #d7ccc8;
     padding: 20px;
     text-align: center;
     font-size: 24px;
@@ -18,6 +18,7 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -27,13 +28,22 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #d7ccc8;
     font-weight: bold;
 }
 
 section {
     padding: 50px;
     text-align: center;
+}
+
+#about, #projects, #contact {
+    background: #4e342e;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 #projects-list {
@@ -44,11 +54,11 @@ section {
 }
 
 .project-item {
-    background: white;
+    background: #5d4037;
     padding: 15px;
     border-radius: 10px;
     width: 300px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
@@ -60,12 +70,12 @@ section {
 
 .project-item h3 {
     margin: 10px 0 5px;
-    color: #5a4635;
+    color: #c4a484;
 }
 
 .project-item p {
     font-size: 14px;
-    color: #7a5c47;
+    color: #d7ccc8;
 }
 
 .project-item a {
@@ -75,8 +85,8 @@ section {
 }
 
 footer {
-    background-color: #a67c52;
-    color: white;
+    background-color: #3e2723;
+    color: #d7ccc8;
     text-align: center;
     padding: 10px;
     position: relative;
