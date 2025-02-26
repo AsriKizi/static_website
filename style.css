@@ -1,15 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Georgia", serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4ecd8;
+    color: #5a4635;
 }
 
 header {
-    background: #333;
+    background: #a67c52;
     color: white;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 nav ul {
@@ -19,16 +22,17 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 section {
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -42,9 +46,9 @@ section {
 .project-item {
     background: white;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 300px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
@@ -56,16 +60,26 @@ section {
 
 .project-item h3 {
     margin: 10px 0 5px;
-    color: #333;
+    color: #5a4635;
 }
 
 .project-item p {
     font-size: 14px;
-    color: #666;
+    color: #7a5c47;
 }
 
 .project-item a {
     text-decoration: none;
-    color: blue;
+    color: #a67c52;
     font-weight: bold;
+}
+
+footer {
+    background-color: #a67c52;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
