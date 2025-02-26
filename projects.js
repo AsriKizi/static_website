@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const data = {
         "name": "Muhammad Asri bin Muhamad Khidzi",
         "title": "Mobile Apps Developer & Game Developer",
-        "about": "l'm Muhammad Asri bin Muhamad khidzi from Kg Batu 9 Kebun Baharu, Kuala Langat, Selangor. I'm the eldest from five siblings. Want to become a lecturer for programming if possible. Aiming to get job as a programmer first. Like to draw, watch movie online, play game, make game, play volley ball and fishing. Like to try solve problem, especially about physic, math logic, puzzle. Like to do what other people not do and cant do, to challenge my self. I have good selflearning skill that help me to have some knowledge on programming skills.",
+        "about": { 
+            "aboutme": "l'm Muhammad Asri bin Muhamad khidzi from Kg Batu 9 Kebun Baharu, Kuala Langat, Selangor. I'm the eldest from five siblings. Want to become a lecturer for programming if possible. Aiming to get job as a programmer first. Like to draw, watch movie online, play game, make game, play volley ball and fishing. Like to try solve problem, especially about physic, math logic, puzzle. Like to do what other people not do and cant do, to challenge my self. I have good selflearning skill that help me to have some knowledge on programming skills." 
+        },
         "experience": [
             {
                 "position": "Software Engineer (Flutter)",
@@ -40,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Isi data ke dalam halaman
     document.getElementById("name").textContent = data.name;
     document.getElementById("title").textContent = data.title;
-    document.getElementById("about").textContent = `${data.about}`;
+    document.getElementById("about").textContent = data.about.aboutme;
     document.getElementById("email").textContent = data.contact.email;
 
     // Isi Experience
